@@ -1,0 +1,264 @@
+[
+
+    {
+        "model": "users.usertype",
+        "pk": 1,
+        "fields": {
+            "name": "Super Admin",
+            "display": "Super Admin",
+            "description": "Django Admin"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 2,
+        "fields": {
+            "name": "Dealer",
+            "display": "Dealer",
+            "description": "Usertype Dealer"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 3,
+        "fields": {
+            "name": "Distributor",
+            "display": "Distributor",
+            "description": "Usertype Distributor"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 4,
+        "fields": {
+            "name": "Retailer",
+            "display": "Retailer",
+            "description": "Usertype Retailer"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 5,
+        "fields": {
+            "name": "Trader",
+            "display": "Trader",
+            "description": "Usertype Trader"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 6,
+        "fields": {
+            "name": "Agent",
+            "display": "Agent",
+            "description": "Usertype Agent"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 7,
+        "fields": {
+            "name": "Agency",
+            "display": "Agency",
+            "description": "Usertype Agency"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 8,
+        "fields": {
+            "name": "OEM",
+            "display": "OEM",
+            "description": "Usertype OEM"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 9,
+        "fields": {
+            "name": "Wholesale & Retail",
+            "display": "Wholesale & Retail",
+            "description": "Wholesale & Retail"
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 10,
+        "fields": {
+            "name": "Processing Unit",
+            "display": "Processing Unit",
+            "description": null
+        }
+    },
+    {
+        "model": "users.usertype",
+        "pk": 11,
+        "fields": {
+            "name": "Manufacturing Unit",
+            "display": "Manufacturing Unit",
+            "description": null
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 1,
+        "fields": {
+            "name": "Seeds",
+            "display": "Seeds",
+            "description": "Industry type Seeds"
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 2,
+        "fields": {
+            "name": "Fertilzers",
+            "display": "Fertilzers",
+            "description": "Industry type Fertilzers"
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 3,
+        "fields": {
+            "name": "Pesticides",
+            "display": "Pesticides",
+            "description": "Industry type Pesticides"
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 4,
+        "fields": {
+            "name": "Seeds, Fertilizer & Pesticides",
+            "display": "Seeds, Fertilizer & Pesticides",
+            "description": "Seeds, Fertilizer & Pesticides"
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 5,
+        "fields": {
+            "name": "Seeds & Pesticides",
+            "display": "Seeds & Pesticides",
+            "description": "Seeds & Pesticides"
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 6,
+        "fields": {
+            "name": "OIL MILL",
+            "display": "OIL MILL",
+            "description": null
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 7,
+        "fields": {
+            "name": "GINNING MILL",
+            "display": "GINNING MILL",
+            "description": null
+        }
+    },
+    {
+        "model": "users.industry",
+        "pk": 8,
+        "fields": {
+            "name": "GINNING & OIL MILL",
+            "display": "GINNING & OIL MILL",
+            "description": null
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 1,
+        "fields": {
+            "name": "Proprietorship",
+            "display": "Proprietorship",
+            "description": "Company type Proprietorship"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 2,
+        "fields": {
+            "name": "Partnership",
+            "display": "Partnership",
+            "description": "Company type Partnership"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 3,
+        "fields": {
+            "name": "LLP",
+            "display": "LLP",
+            "description": "Company type LLP"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 4,
+        "fields": {
+            "name": "Pvt Ltd",
+            "display": "Pvt Ltd",
+            "description": "Company type Pvt Ltd"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 5,
+        "fields": {
+            "name": "Ltd",
+            "display": "Ltd",
+            "description": "Company type Ltd"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 6,
+        "fields": {
+            "name": "Individual",
+            "display": "Individual",
+            "description": "Company type Individual"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 7,
+        "fields": {
+            "name": "Cooperative",
+            "display": "Cooperative",
+            "description": "Company type Cooperative"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 8,
+        "fields": {
+            "name": "Society",
+            "display": "Society",
+            "description": "Company type Society"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 9,
+        "fields": {
+            "name": "HUF",
+            "display": "HUF",
+            "description": "HUF"
+        }
+    },
+    {
+        "model": "users.companytype",
+        "pk": 10,
+        "fields": {
+            "name": "Association",
+            "display": "Association",
+            "description": "Association"
+        }
+    }
+]

@@ -1,0 +1,147 @@
+{% extends 'email_templates/layout.html' %}
+
+{% block page_content %}
+    <span class="mcnPreviewText"
+          style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">{{ subject }}</span>
+    <table id="bodyTable">
+        <tr>
+            <td id="bodyCell">
+                <table style="width:600px; margin: 0 auto;">
+                    <tr>
+                        <td style="width:600px;margin: 0 auto;">
+                            <table style="max-width:600px !important; width: 100%;"
+                                   class="templateContainer">
+                                <tr>
+                                    <td id="templateHeader">
+                                        <table class="mcnImageBlock" style="min-width:100%; width: 100%;">
+                                            <tbody class="mcnImageBlockOuter">
+                                            <tr>
+                                                <td style="padding:9px" class="mcnImageBlockInner">
+                                                    <table class="mcnImageContentContainer"
+                                                           style="min-width:100%;width: 100%;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="mcnImageContent" style="padding: 0 9px;">
+                                                                <a rel="noopener" href="{{ domain }}" target="_blank">
+                                                                    <img alt="Logo" src="{{ logo_url }}" style=" width: 150px;
+                                                         margin: 20px 0px 0px; padding-bottom: 0px; vertical-align:
+                                                         bottom; display: inline !important; border-radius: 0%;"
+                                                                         class="mcnImage"></a>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                               
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="templateBody">
+                                        <table class="mcnTextBlock" style="min-width:100%;width: 100%">
+                                            <tbody class="mcnTextBlockOuter">
+                                            <tr>
+                                                <td>
+                                                    <hr style="margin: 8px 8px 0px;border-color: white;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mcnTextBlockInner" style="padding-top:9px;">
+                                                    <table style="width:100%;">
+                                                        <tr>
+                                                            <td style="width:600px;">
+                                                                <table style="max-width:100%; min-width:100%;width: 100%;"
+                                                                       class="mcnTextContentContainer">
+                                                                    <tbody>
+                                                                   
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding-top:0; padding-right:18px; padding-left:18px;">
+                                                                            <p style="color: #4b4b4d;font-size: 16px;margin: 0px;">
+                                                                                Dear
+                                                                                <span style="margin-right: 5px;font-weight: bold;">{{ username }}</span>,
+                                                                            </p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="height: 10px;"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding-top:0; padding-right:18px;padding-left:18px;">
+                                                                            <p style="color: #4b4b4d;">Welcome to
+                                                                                BDNT LABS PVT LTD,
+                                                                                we're
+                                                                                excited to have you get started.</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding: 0 18px 9px;">
+                                                                            <p style="color: #4b4b4d;font-size: 14px;font-weight: bold;">
+
+                                                                                    Please find your login credentials.
+                                                                            </p>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                        <tr>
+                                                                            <td class="mcnTextContent"
+                                                                                style="padding: 0 18px 9px;">
+                                                                                Email: <span
+                                                                                    style="font-weight: bold;color: #006cbf;">{{ email }}</span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="mcnTextContent"
+                                                                                style="padding: 0 18px 9px;">
+                                                                                Password: <span
+                                                                                    style=" font-weight: bold;color: #006cbf;">{{ password }}</span>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    <tr>
+                                                                        <td style="height: 10px;"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding: 0 18px 9px;">
+                                                                            For more info and queries, please reach us
+                                                                            at <a
+                                                                                style="color: #006cbf;text-decoration: none;"
+                                                                                href="mailto:support@bdnt.tech">support@bdnt.tech</a>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="height: 10px;"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding: 0 18px 9px;">
+                                                                            Regards,
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="mcnTextContent"
+                                                                            style="padding: 0 18px 9px;font-weight: bold;color: #000;">
+                                                                            BDNT LABS PVT LTD
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+{% endblock %}

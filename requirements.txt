@@ -1,0 +1,11 @@
+Django
+dj-rest-auth
+dj-rest-auth[with_social]
+psycopg2-binary
+django-cors-headers
+coreapi
+coreschema
+pyyaml
+boto3
+python-dotenv
+razorpay
